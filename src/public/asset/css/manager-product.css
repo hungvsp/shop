@@ -1,0 +1,42 @@
+*{
+    list-style:none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.manager-product-container{
+    background: rgb(2,0,36);
+    background-image: linear-gradient(to left bottom, #d18dcf,#4358d1);
+    width:100%;
+    padding: 100px 0;
+    background-repeat:no-repeat ;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-box{
+    border-spacing: 0;  
+    border-radius:5px;
+    overflow: hidden;
+}
+.header-table{
+    background:#362f4b
+}
+.col-tb{
+    padding:10px;
+    position: relative;
+}
+.body-table{
+    background:#fff
+}
+.row-tb-body:nth-child(even) {
+    background:#f6f6f6
+}
+.col-name .modal{
+    position: absolute;
+    right:40px
+}
