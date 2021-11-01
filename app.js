@@ -17,7 +17,7 @@ app.set('view engine' , 'ejs')
 connect.connect()
 //routers(app)
 
-const post=5555
-app.listen(post,()=>{
-    console.log('app opped at port http://localhost:'+post)
+const PORT=process.env.PORT || 3000
+app.listen(PORT,()=>{
+    console.log('app opped at port http://localhost:'+PORT)
 })    
